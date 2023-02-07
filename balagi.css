@@ -1,0 +1,719 @@
+.img-logo{
+    height: auto;
+    width: 190px;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.balagi-li{
+    font-size: 16px;
+}
+
+.balagi-li:hover{
+    
+    font-size: 16px;
+    border-bottom: 2px solid  #ed1b24;
+    padding-bottom: 5px;
+}
+
+.back-color{
+   background-color:  #f2f2f2;
+}
+
+.balagi-li-second{
+    font-size: 14px;
+    color: #8e8e8e !important;
+}
+
+.back-color2{
+    background-color: #fff;
+}
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 20px !important;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    position: relative;
+    left: 53%!important;
+    text-indent: -999px;
+    cursor: pointer;
+    border-radius: 10px !important;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+
+.carousel-indicators li.active  {
+    background-color: rgb(201, 15, 15) !important;
+    width: 30px !important;
+    
+  }
+
+  .colum_three{
+    padding-top: 60px;
+  }
+
+  @media screen and (max-width: 767px) {
+        .balagi-indicators{
+            top: 80% !important;
+        }
+
+        .colum_three{
+            padding-top: 35px;
+          }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1000px) {
+    .balagi-indicators{
+        top: 82% !important;
+    }
+}
+
+.balagi-card{
+    border-radius: 35px !important;
+    border: none !important;
+    background-color: #fff2e0 !important;
+}
+
+.balagi-card2{
+    border-radius: 35px !important;
+    border: none !important;
+    background-color: #ffe1ec !important;
+}
+
+.balagi-card3{
+    border-radius: 35px !important;
+    border: none !important;
+    background-color: #ebe9f4 !important;
+}
+
+.balagi-card4{
+    border-radius: 35px !important;
+    border: none !important;
+    background-color: #e3f4fc !important;
+}
+
+.border{
+    background-color: #e8e8e8;
+    height: 15px;
+}
+
+.balagi-card:hover{
+    box-shadow: 1px 3px 15px #bfbfbf69;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+
+.balagi-card2:hover{
+    box-shadow: 1px 3px 15px #bfbfbf69;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+
+.balagi-card3:hover{
+    box-shadow: 1px 3px 15px #bfbfbf69;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+
+.balagi-card4:hover{
+    box-shadow: 1px 3px 15px #bfbfbf69;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+
+.img-card{
+    height: auto;
+    width: 47px;
+}
+
+.img-card1{
+    height: auto;
+    width: 45px;
+}
+
+.img-card4{
+    height: auto;
+    width: 87px;
+}
+
+.product-card{
+    font-size: 18px;
+    font-weight: 700;
+    color: #805522 !important;
+}
+
+.serv-card{
+    font-size: 16px;
+    line-height: 0px;
+    color: #805522 !important;
+}
+
+.product-card2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #802145 !important;
+}
+
+.serv-card2{
+    font-size: 16px;
+    line-height: 0px;
+    color: #802145 !important;
+}
+
+.product-card3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #523d4e !important;
+}
+
+.serv-card3{
+    font-size: 16px;
+    line-height: 0px;
+    color: #523d4e !important;
+}
+
+.product-card4{
+    font-size: 18px;
+    font-weight: 700;
+    color: #565a5e !important;
+}
+
+.serv-card4{
+    font-size: 16px;
+    line-height: 0px;
+    color: #565a5e !important;
+}
+
+.img-aero{
+    height: auto;
+    width: 40px;
+}
+
+.card-padding{
+    padding-left: 30px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.img-dote{
+    height: auto;
+    width: 92px;
+}
+
+.a-card{
+    text-decoration: none !important;
+}
+
+.img-second-aero{
+    height: auto;
+    width: 50px !important;
+}
+
+.owl-dots {
+    display: none;
+  }
+
+
+.snd-card{
+    font-size: 18px;
+    font-weight: 700;
+    color: #000 !important;
+}
+
+.owl-card-link{
+    text-decoration: none !important;
+    box-shadow: none;
+}
+
+.owl-card-link .snd-card:hover{
+    color: #ed1b24 !important;
+}
+
+.snd-new{
+    line-height: 0;
+    font-size: 15px;
+    color: #000 !important;
+}
+
+.snd-new1{
+    font-size: 14px;
+}
+
+.snd-card1{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.owl-card{
+    border-radius: 0 !important;
+}
+
+.owl-card1{
+    border-radius: 0 !important;
+    transition: 1s;
+    border: none !important;
+}
+
+.owl-cardNew{
+    border-radius: 0 !important;
+    transition: 1s;
+    border: 1px snow #8e8e8e;
+}
+
+.owl-card2{
+    border-radius: 0 !important;
+    transition: 1s;
+}
+
+
+.owl-card1:hover{
+    border-radius: 0 !important;
+    transition: 1s;
+    transform: scale(1.1);
+    z-index: 999;
+    box-shadow: 1px 4px 17px #88888878;
+    border: none;
+}
+
+.owl-cardNew:hover{
+    border-radius: 0 !important;
+    transition: 1s;
+    transform: scale(1.1);
+    z-index: 999;
+    box-shadow: 1px 4px 17px #88888878;
+    border: none;
+}
+
+.card_contact_data{
+    border-radius: 0 !important;
+    background-color: #ebe9f4 !important;
+}
+
+.owl-card2:hover{
+    border-radius: 0 !important;
+    transition: 1s;
+    transform: scale(1.1);
+    z-index: 999;
+    box-shadow: 1px 4px 17px #88888878;
+    border: none;
+
+}
+
+.owl-nav{
+    position: relative;
+    margin-left: 89%;
+    margin-top: -35% !important;
+}
+
+@media screen and (max-width:550px) {       
+    .owl-nav{
+        position: relative;
+        margin-left: 60%;
+        margin-top: -87% !important;
+    }
+
+    .service-flex{
+        text-align: center !important;
+        justify-content: center !important;
+    }
+}
+
+@media screen and (min-width:551px) and (max-width: 767px) {
+    .owl-nav{
+        position: relative;
+        margin-left: 65%;
+        margin-top: -82% !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .balagi-hr{
+        right: 24% !important;
+    }
+
+    .justify{
+        text-align: center !important;
+        justify-content: center !important;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .owl-nav{
+        position: relative;
+        margin-left: 70%;
+        margin-top: -56% !important;
+    }
+
+    .balagi-hr{
+        right: 32% !important;
+    }
+
+    .balagi-hr1{
+        right: 17% !important;
+    }
+
+    .balagi-hr2{
+        right: 1% !important;
+    }
+
+    .balagi-hr3{
+        right: -4% !important;
+        width: 400px !important;
+    }
+
+    .access-style{
+        margin-top: 28px !important;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .balagi-hr{
+        right: 37% !important;
+    }
+
+    .access-style{
+        margin-top: -7px;
+    }
+
+    .balagi-hr1{
+        right: 26% !important;
+    }
+
+    .balagi-hr2{
+        right: 0% !important;
+    }
+
+    .balagi-hr3{
+        right: 0% !important;
+        width: 620px !important;
+    }
+
+
+    .owl-nav{
+        position: relative;
+        margin-left: 82%;
+        margin-top: -43% !important;
+    }
+}
+
+.bala-owl{
+    margin-top:40px !important;
+    /* padding-bottom: 400px !important; */
+}
+
+
+.owl-prev{
+    width: 40px;
+    height: 40px;
+    font-size: 25px !important;
+   border-radius: 50% !important;
+   margin-left: 10px !important;
+   margin-right: 10px !important;
+   border: 1px solid #8e8e8e !important;
+}
+
+.owl-next{
+    width: 40px;
+    height: 40px;
+    font-size: 25px !important;
+   border-radius: 50% !important;
+   margin-left: 10px !important;
+   margin-right: 10px !important;
+   border: 1px solid #8e8e8e !important;
+}
+
+.balagi-hr{
+    width: 155px;
+    position: relative;
+    right: 39%;
+    top: -18px;
+}
+
+.balagi-hr1{
+    width: 155px;
+    position: relative;
+    right: 29%;
+    top: -18px;
+}
+
+.balagi-hr2{
+    width: 140px;
+    position: relative;
+    right: 9%;
+    top: -18px;
+}
+
+
+.balagi-hr3{
+    width: 675px;
+    position: relative;
+    right: -5%;
+    top: -65px;
+}
+
+.sub-card{
+    font-size: 11px;
+}
+
+.balagi-btn{
+    background-color: #ccc !important;
+    border-radius: 0 !important;
+    font-weight: 700 !important;
+    color: #4d4d4d !important;
+    font-size: 15px !important;
+}
+
+.balagi-btn:hover{
+    background-color: #ed1b24 !important;
+    color: #fff !important;
+}
+
+.balagi-background{
+    background-color: #ebebeb;
+    margin-top: -220px;
+    padding-bottom: 70px;
+}
+
+.img-aero2{
+    height: auto;
+    width: 80px;
+}
+
+.img-service-card{
+    height: auto;
+    width: 150px;
+}
+
+.img-service-card1{
+    height: 60px;
+    width: 130px;
+} 
+
+.footer--art{
+   text-decoration: none !important;
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.footer--art:hover{
+    text-decoration: none !important;
+     font-size: 19px;
+     font-weight: 500;
+     color: #fff;
+ }
+
+.footer--art1{
+    text-decoration: none !important;
+     font-size: 16px;
+     font-weight: 500;
+ }
+
+.background-footer{
+    background-color: #000;
+    color: #fff;
+}
+
+.balagi-media{
+    font-size: 25px;
+    color: #fff;
+}
+
+.balagi-media:hover{
+    color: #0879e9 !important;
+
+}
+
+.balagi-media1{
+    font-size: 25px;
+    color: #fff;
+}
+
+.balagi-media1:hover{
+    font-size: 25px;
+    color: #f60778 !important; 
+}
+
+.balagi-media2{
+    font-size: 25px;
+    color: #fff;
+}
+
+.balagi-media2:hover{
+    font-size: 25px;
+    color: #1da1f2 !important;
+}
+
+/* Accessories css */
+
+.background-access{
+    background-color: #f2f2f2;
+    height: 35px;
+}
+
+.background-access1{
+    background-color: #f2f2f2;
+    height: 5px;
+}
+
+.nav {
+    display: -ms-flexbox;
+    display: inline !important; 
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.balagi-li-second2{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.lapy-border{
+    height: 4px;
+    background-color: black;
+    width: 90px;
+    top: -46px !important;
+    position: relative;
+    left: 10px;
+}
+
+.access-style{
+    margin-top: -7px;
+}
+
+.card-row{
+    margin-top: -42px;
+}
+
+.navtab-card{
+    color: #000;
+    font-size: 17px;
+    
+    text-decoration: none !important;
+}
+
+.navtab-card:hover{
+    color: red !important;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.select-box{
+    border: 1px solid #000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.service-card{
+    background-color:#fff2e0 !important;
+    border-radius: 0 !important;
+    
+}
+
+.service-card1{
+    background-color:#ffe1ec !important;
+    border-radius: 0 !important; 
+    
+}
+
+.service-card3{
+    background-color:#ebe9f4 !important;
+    border-radius: 0 !important;
+    
+}
+
+.service-card4{
+    background-color: #e3f4fc !important;
+    border-radius: 0 !important; 
+    
+}
+
+.mac-color{
+    color: #805522 !important;
+}
+
+
+.mac-color1{
+    color: #802145 !important;
+}
+
+.mac-color3{
+    color: #523d4e !important;
+}
+
+.mac-color4{
+    color: #565a5e !important;
+}
+
+.card-call{
+    background-color: blue !important;
+    border-radius: 0 !important;
+}
+
+.card-whatsapp{
+    background-color: green !important;
+    border-radius: 0 !important;
+}
+
+.img-support{
+    height: auto;
+    width: 60px;
+}
+
+.img-enquary{
+    height: auto;
+    width: 60px;
+}
+
+.balagi-pageignation1{
+    border-radius: 3px !important;
+    font-weight: 500;
+    color: #000 !important;
+}
+
+.balagi-pageignation1:hover{
+    background-color: red !important;
+    color: #fff !important;
+}
+
+.balagi-pageignation{
+    border-radius: 40% !important;
+    font-weight: 500;
+    color: #000 !important;
+    border: 2px solid #000 !important;
+}
+
+.balagi-pageignation:hover{
+    background-color: red !important;
+    color: #fff !important;
+}
+
+.btn-cart{
+    box-shadow: none !important;
+    outline: none !important;
+    border: 1px solid rgb(91, 94, 91) !important;
+    border-radius: 0 !important;
+  }
+
+  .primaryBtn{
+    border-radius: 0 !important;
+    border: 1px solid #000 !important;
+  }
+
+  .primaryBtn:hover{
+    background-color: green;
+    border: 1px solid #fff !important;
+    color: #fff !important;
+  }
+
